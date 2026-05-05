@@ -1,16 +1,99 @@
-# React + Vite
+**ShopZone (Prodesk Mission 6)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based e-commerce web application built using Vite, featuring product browsing, cart management, protected routes, and user authentication flow.
 
-Currently, two official plugins are available:
+**Overview**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ShopZone is a frontend-focused project that simulates a real-world online shopping platform. It demonstrates:
 
-## React Compiler
+Component-based architecture
+State management using Context API
+Client-side routing with protected pages
+Clean UI with responsive layout
+✨ Features
+🛒 Browse products
+➕ Add to cart functionality
+🔐 Authentication system (Context-based)
+🚫 Protected routes (only logged-in users)
+⚡ Fast performance with Vite
+🔄 Dynamic navigation using React Router
+🛠️ Tech Stack
+Frontend
+React.js (Hooks + Context API)
+React Router DOM
+Vite
+Styling
+CSS (custom styles)
+Tooling
+ESLint
+Vite Dev Server
+📂 Project Structure
+ShopZone/
+│
+├── public/                # Static assets
+├── src/
+│   ├── App.jsx            # Main app routing
+│   ├── main.jsx           # Entry point
+│   ├── pages.jsx          # All pages (Home, Shop, etc.)
+│   ├── components.jsx     # Reusable components
+│   ├── context.jsx        # Auth & Cart Context
+│   ├── ProtectedRoute.jsx # Route protection logic
+│   ├── assets/            # Images/icons
+│   └── index.css          # Global styles
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/Prodesk-Mission-6.git
+cd Prodesk-Mission-6
+2️⃣ Install Dependencies
+npm install
+3️⃣ Run the App
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+App will run on:
 
-## Expanding the ESLint configuration
+http://localhost:5173
+🔐 Authentication Flow
+User login state is managed using React Context
+Protected routes restrict access to certain pages
+Unauthorized users are redirected automatically
+🛒 Cart System
+Add/remove items from cart
+Global cart state using Context API
+Real-time updates across components
+📸 Screens (Add these)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add screenshots here for:
+
+Home Page
+Shop Page
+Cart Page
+Login Page
+🚀 Deployment
+Deploy using Vercel
+Push code to GitHub
+Go to Vercel
+Import repository
+Click Deploy
+📌 Key Learnings
+React Context API for global state
+Protected routing in React
+Component reusability
+Structuring scalable frontend apps
+🔮 Future Improvements
+Backend integration (Node.js / Firebase)
+Payment gateway integration
+Product filtering & search
+User profile & order history
+🤝 Contributing
+
+Feel free to fork this project and submit improvements.
+
+👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/your-username
