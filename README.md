@@ -1,10 +1,10 @@
-# 🛍️ ShopZone (Prodesk Mission 6)
+#  ShopZone (Prodesk Mission 6)
 
 A modern **React-based e-commerce web application** built using Vite, featuring product browsing, cart management, protected routes, and user authentication flow.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 ShopZone is a frontend-focused project that simulates a real-world online shopping platform. It demonstrates:
 
@@ -14,19 +14,25 @@ ShopZone is a frontend-focused project that simulates a real-world online shoppi
 * Clean UI with responsive layout
 
 ---
+##  Vercel
+https://prodesk-mission-6.vercel.app/
 
-## ✨ Features
+(The cart is currently managed using React Context (in-memory state).
+When the page refreshes, the state is lost because it is not persisted anywhere.
+In local development (VS Code), it may appear consistent due to hot reload behavior, but in production it resets.)
 
-* 🛒 Browse products
-* ➕ Add to cart functionality
-* 🔐 Authentication system (Context-based)
-* 🚫 Protected routes (only logged-in users)
-* ⚡ Fast performance with Vite
-* 🔄 Dynamic navigation using React Router
+##  Features
+
+*  Browse products
+*  Add to cart functionality
+*  Authentication system (Context-based)
+*  Protected routes (only logged-in users)
+*  Fast performance with Vite
+*  Dynamic navigation using React Router
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -45,7 +51,7 @@ ShopZone is a frontend-focused project that simulates a real-world online shoppi
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ShopZone/
@@ -69,44 +75,7 @@ ShopZone/
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Prodesk-Mission-6.git
-cd Prodesk-Mission-6
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Run the App
-
-```bash
-npm run dev
-```
-
-App will run on:
-
-```
-http://localhost:5173
-```
-
----
-
-## 🔐 Authentication Flow
-
-* User login state is managed using React Context
-* Protected routes restrict access to certain pages
-* Unauthorized users are redirected automatically
-
----
-
-## 🛒 Cart System
+##  Cart System
 
 * Add/remove items from cart
 * Global cart state using Context API
@@ -114,24 +83,15 @@ http://localhost:5173
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots here: Home, Shop, Cart, Login)
-
----
-
-## 🚀 Deployment
-
-### Deploy using Vercel
-
-1. Push code to GitHub
-2. Go to Vercel
-3. Import repository
-4. Click Deploy
+## Screenshots
+<img width="2501" height="1253" alt="image" src="https://github.com/user-attachments/assets/9fdd50f0-e776-4bc5-ab07-6388fa74ccff" />
+<img width="2516" height="1274" alt="image" src="https://github.com/user-attachments/assets/7fc430ee-919b-470d-ab6a-69f49e00e0b8" />
+<img width="2537" height="545" alt="image" src="https://github.com/user-attachments/assets/b72f9540-de14-49af-af99-dfc092083015" />
+<img width="2517" height="836" alt="image" src="https://github.com/user-attachments/assets/a8d4c7fe-88ec-44c1-8a7e-4728960d0166" />
 
 ---
 
-## 📌 Key Learnings
+##  Key Learnings
 
 * React Context API for global state
 * Protected routing in React
@@ -140,22 +100,8 @@ http://localhost:5173
 
 ---
 
-## 🔮 Future Improvements
+##  Author
+A TEJASYA
+P/IL/26/NOIDA/M1299
+KLH UNIVERSITY  
 
-* Backend integration (Node.js / Firebase)
-* Payment gateway integration
-* Product filtering & search
-* User profile & order history
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this project and submit improvements.
-
----
-
-## 👨‍💻 Author
-
-Your Name
-GitHub: https://github.com/your-username
